@@ -4,12 +4,7 @@ import java.util.Arrays;
 
 public class Arrays2D {
     public static void main(String[] args) {
-        int [][]  arr = {
-                {23,58,12},
-                {1,2,5,9},
-                {18,34},
-                {25,555,35}
-        };
+        int [][]  arr = {{23,58,12}, {1,2,5,9}, {18,34}, {25,555,35}};
         int target = 9;
 
         int [] ans = search(arr, target); //format of return value row and col.
